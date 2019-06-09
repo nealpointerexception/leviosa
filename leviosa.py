@@ -26,6 +26,7 @@ if __name__ == "__main__":
     window_data = subprocess.check_output(". ~/scripts/i3-get-window-criteria.sh", shell=True)
     # ask user what they want to id their window by
     window_data = str(window_data)
+    print(window_data)
     print(
         """Select Identifier:
             (c)lass
